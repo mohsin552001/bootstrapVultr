@@ -1,0 +1,103 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background-color: #dfe3ed;
+  padding-left: 25%;
+}
+
+header .newsSection .btn {
+  height: 20px;
+  width: 50px;
+  font-size: 10px;
+  background-color: #007bfc;
+  outline: none;
+  border: 0px solid;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0px;
+}
+
+header .newsSection p {
+  cursor: pointer;
+  color: #142149;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  line-height: 20px;
+}
+
+header .newsSection p:hover {
+  color: #007bfc;
+}
+
+header .docsbtns {
+  padding-left: 150px;
+}
+
+header .docsbtns button {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #525666;
+  padding: 0 8px;
+}
+
+header .docsbtns button i {
+  padding-left: 10px;
+}
+
+header .docsbtns button:hover {
+  color: #007bfc;
+  cursor: pointer;
+}
+
+.headerSection {
+  height: 800px;
+  background: -webkit-gradient(linear, left top, right top, from(#021048), to(#1e38a3));
+  background: linear-gradient(90deg, #021048, #1e38a3);
+}
+
+.headerSection .container-fluid {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerSection .container-fluid .logovulter {
+  margin-left: 180px;
+}
+
+.headerSection .container-fluid .collapse .unorderredlist .loginbtns button {
+  height: 50px;
+  border-radius: 0px !important;
+}
+
+.headerSection .container-fluid .collapse .unorderredlist .loginbtns .btns {
+  background-color: #007bfc;
+}
+
+.headerSection .container-fluid .collapse .unorderredlist .loginbtns .btns:hover {
+  background: radial-gradient(circle closest-side, #51b9ff, transparent);
+  background-color: #0091f9;
+  outline: none;
+}
+
+.headerSection .container-fluid .collapse .unorderredlist .loginbtns .firstbtn {
+  border: 1px solid;
+  border-color: #7777e0;
+}
+
+.headerSection .container-fluid .collapse .unorderredlist .loginbtns .firstbtn:hover {
+  background-color: #0000cc !important;
+}
+/*# sourceMappingURL=style.css.map */
